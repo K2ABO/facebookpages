@@ -1,0 +1,145 @@
+@media screen and (max-width: 550px){
+
+    .container{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .menuform{
+        padding-right: 40px;
+    }
+
+    @media screen and (max-width: 482px){
+        .fcbkmenu{
+            display: flexbox;
+            flex-direction: column;
+            
+            
+        }
+    }
+    
+}
+
+
+header{ 
+    background-color: rgb(59, 103, 173);
+    height: 100px;
+}
+
+/*    MENUBAR      */
+.fcbkmenu{
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+}
+
+/*     RIGHT SIDE       */
+.fcbklogo{
+    padding-top: 40px ;
+    font-family: Helvetica,  Arial, sans-serif;
+    font-size: xx-large;
+    font-weight:bold;
+    color: honeydew;
+}
+
+/*    LEFT SIDE     */
+.menuform{
+    margin-left: 30px;
+    width: 250px;
+    color: aliceblue;
+    border-spacing: 2px;
+    
+}
+
+
+
+/*       CONTAINER      */
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+     
+}
+section{
+    margin: O;
+    padding: 0;
+}
+
+/*       SECTION 1      */
+
+h3{
+    font-size: xx-large;
+}
+
+i{
+    padding-right: 4px;
+
+}
+
+img{
+    width:15%;
+}
+
+.p1,.p2,.p3{
+    display: flex;
+    align-items: center;
+}
+
+
+/*        SECTION 2     */
+
+
+h2{
+
+    font-size: 40px;
+}
+
+.paswrd{
+    margin-left: 120px;
+}
+button{
+    border: 0.5px rgb(52, 101, 165) solid;
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(68, 112, 182);
+    box-shadow: 0px 0.5px 0.5px 0px black ;
+    outline: none;
+}
+ 
+input{
+    width: fit-content;
+}
+ 
+.signup {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(26, 131, 26);
+    border-radius: 4px;
+    box-shadow:0px 0.5px 1px 0.5px black; 
+    outline:none;
+}
+
+.gray{
+    color: gray;
+}
+    
+.help{
+    background-color: gray;
+    border-radius: 50%;
+    color: honeydew;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+bold{
+    font-weight: bold;
+}
+
+span{
+    color: cornflowerblue;
+}
